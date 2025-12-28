@@ -7,7 +7,7 @@ pub const DELTA_T: f32 = 0.5;
 
 pub const B_FIELD: f32 = 3.8;
 
-pub const EM_CONST: f32 = 0.0005;
+pub const EM_CONST: f32 = 0.001;
 
 pub struct Particle {
     pub pos: Vec2,
